@@ -1,0 +1,10 @@
+name: Asset2Relative
+id:   Asset2Relative
+key:  asset2relative
+version: 0.1
+author_link: https://alfasado.net/
+author_name: Alfasado Inc.
+l10n_class: Asset2Relative::L10N
+description: <__trans phrase="Insert asset with relative path.">
+callbacks:
+    MT::App::CMS::template_param.asset_insert: $asset2relative::Asset2Relative::Plugin::_asset_insert_param
